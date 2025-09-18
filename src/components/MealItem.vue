@@ -1,6 +1,6 @@
 <template>
  
-  <div class="container mx-auto px-4 py-8"  :key="meal.idMeal">
+  <div class="container mx-auto  py-8"  :key="meal.idMeal">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-1 gap-6 h-full">
       <div class="bg-white rounded-lg shadow-md overflow-hidden relative">
          <router-link :to="{ name: 'mealDetails', params: { id: meal.idMeal } }">

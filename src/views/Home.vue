@@ -1,6 +1,9 @@
 <template>
-    <div class="p-8 pb-0 text-orange-500">
-        <h1 class="text-4xl font-bold mb-4">Random Meals</h1>
+    <div class="flex flex-col items-center justify-center pt-5 px-4">
+        <h1 class="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center">Món Ăn Ngẫu Nhiên</h1>
+        <p class="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed font-normal text-center mt-2 max-w-2xl">
+            Khám phá những món ăn bất ngờ và thú vị từ khắp nơi trên thế giới
+        </p>
     </div>
     <Meals :meals="meals" />
 </template>
